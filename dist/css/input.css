@@ -1,3 +1,24 @@
+.slick-dots {
+    display: flex;
+    font-size: 0px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slick-dots li {
+    padding-left: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    margin: 0 3px;
+    border: 1px solid #00A8EA;
+    cursor: pointer;
+}
+.slick-dots li.slick-active {
+    background-color: #00A8EA;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
