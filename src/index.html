@@ -16,76 +16,81 @@
     <link rel="stylesheet" href="../dist/mix/app.min.css">
 </head>
 <body>
-    <header class="bg-cornflowerblue-500 lg:block hidden">
+    <header class="bg-cornflowerblue-500 fixed top-0 left-0 w-full z-50">
         <div class="bg-[#FBDE00]">
             <div class="max-w-7xl mx-auto px-4">
-                <div class="h-11">
+                <div class="md:h-11 h-6">
     
                 </div>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 pt-4 lg:block hidden">
+        <div class="max-w-7xl mx-auto px-4 pt-4">
             <div class="flex items-center justify-between">
                 <h1>
                     <span class="hidden">Xe Dien Linh Vuong</span>
                     <a href="">
-                        <img class="w-48 object-cover" src="../dist/images/logo.png" alt="logo Xe Dien Linh Vuong">
+                        <img class="md:w-48 w-28 object-cover" src="../dist/images/logo.png" alt="logo Xe Dien Linh Vuong">
                     </a>
                 </h1>
                 <div class="flex items-center space-x-10">
                     <form action="" class="relative" method="GET">
                         <fieldset>
                             <label for="search"></label>
-                            <input type="text" id="search" name="keywords" class="w-96 rounded-md px-6 py-[11px] placeholder:text-sm" placeholder="Nhập từ khóa tìm kiếm" required>
+                            <input type="text" id="search" name="keywords" class="xl:w-96 w-full rounded-md xl:px-6 px-4 xl:py-[11px] py-2 xl:placeholder:text-sm text-xs" placeholder="Nhập xe cần tìm ..." required>
+                            <svg class="absolute z-10 xl:x-5 xl:h-5 w-4 h-4 top-1/2 xl:right-3 right-1 transform -translate-y-1/2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                         </fieldset>
                         <button type="submit" class="absolute top-1/2 right-4 transform -translate-y-1/2"></button>
                     </form>
-                    <div class="border border-solid border-gray-200 rounded-md text-white text-center px-4 max-w-max">
+                    <div class="border border-solid border-gray-200 rounded-md text-white text-center px-4 max-w-max xl:block hidden">
                         <a href="tel:0967594586" class="font-medium text-lg h-6 block"> 0967.59.45.86 </a>
                         <div class="text-sm"> Tổng đài miễn phí </div>
                     </div>
-                    <div class="divide-x divide-solid text-white flex items-center">
+                    <div class="divide-x divide-solid text-white items-center xl:flex hidden">
                         <a href="" class="flex items-center h-10 pr-10 text-center leading-4"> Tư vấn <br> chọn mua </a>
                         <a href="" class="flex items-center h-10 pl-10"> Khuyến mãi </a>
                     </div>
                 </div>
             </div>
             <div id="menu-head" class="pt-4">
-                <ul class="flex items-center">
+                <ul class="flex items-center overflow-y-auto">
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Xe máy điện</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe máy điện</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Xe đạp điện</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe đạp điện</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Xe điện 50CC</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe điện 50CC</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Xe điện cũ</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe điện cũ</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Ắc quy</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Ắc quy</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Phụ kiện</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Phụ kiện</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Tin tức</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Tin tức</a>
                     </li>
                     <li>
-                        <a href="" class="block text-white px-4 py-2 text-sm">Liên hệ</a>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Liên hệ</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <main class="space-y-12">
-        <section class="relative mb-36">
-            <a href="#" class="block aspect-w-12 xl:aspect-h-3 md:aspect-h-4">
-                <img class="w-full object-cover" src="../dist/images/banner.png" alt="banner">
+
+    <main class="space-y-12 lg:mt-[171px] mt-[123px]">
+        <section class="relative lg:mb-36">
+            <a href="#" class="block aspect-w-12 xl:aspect-h-3 lg:aspect-h-4 aspect-h-14">
+                <picture class="w-full h-full">
+                    <source media="(max-width:700px)" srcset="https://file.hstatic.net/200000152071/file/banner_evgo-01-01_6deac9ac3ea34c658480914847d82a26.jpg">
+                    <img class="w-full h-full object-cover" src="../dist/images/banner.png" alt="banner">
+                </picture>
             </a>
-            <div class="max-w-7xl absolute left-1/2 transform -translate-x-1/2 w-full -bottom-[106px] px-4">
+            <div class="max-w-7xl absolute left-1/2 transform -translate-x-1/2 w-full lg:-bottom-[106px] bottom-4 px-4">
                 <div id="slick-banner">
                     <div class="p-1">
                         <a href="#" class="block aspect-w-12 aspect-h-4" title="phong cach thoi trang">
@@ -935,7 +940,301 @@
                 </div>
             </div>
         </section>
+
+        <!--MẪU XE BÁN CHẠY-->
+        <section class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="lg:col-span-6 col-span-12">
+                    <h2 class="uppercase font-semibold text-3xl text-cornflowerblue-500 mb-4 text-center"> TIN HỮU ÍCH </h2>
+                    <div id="slick-useful-news-for">
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slick-useful-news-nav" class="-mx-2 mt-4">
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-6 col-span-12">
+                    <h2 class="uppercase font-semibold text-3xl text-cornflowerblue-500 mb-4 text-center"> VIDEO </h2>
+                    <div id="slick-useful-video-for">
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </a>
+                            <div class="absolute bottom-0 left-0 w-full p-2 z-10 bg-black bg-opacity-60 text-white text-base line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slick-useful-video-nav" class="-mx-2 mt-4">
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-w-10 aspect-h-5">
+                                <img class="w-full h-full object-cover" data-lazy="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2022-12/yamaha_neos_7.jpg" alt="article">
+                            </div>
+                            <div class="text-sm font-medium line-clamp-2">
+                                3 mẫu xe máy điện hãng Honda được trưng bày tại Hà Nội
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <!--KHÁCH HÀNG-->
+        <section class="max-w-7xl mx-auto px-4 space-y-6">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="uppercase font-semibold lg:text-3xl text-2xl text-cornflowerblue-500"> KHÁCH HÀNG </h2>
+                <a href="#" class="text-cornflowerblue-500">Xem thêm >></a>
+            </div>
+            <div id="slick-customer" class="-mx-3">
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="bg-cornflowerblue-500 grid grid-cols-5 text-white uppercase lg:py-2 lg:divide-x lg:divide-y-0 divide-y">
             <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
@@ -955,6 +1254,7 @@
             </div>
         </section>
     </main>
+
     <footer class="pt-10 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-12 lg:gap-x-10 lg:gap-y-0 gap-y-6 lg:text-lg text-base text-gray-700">
             <div class="lg:col-span-4 col-span-12">
@@ -1014,6 +1314,15 @@
             lazyLoad: 'ondemand',
             prevArrow: '<button type="button" class="slick-prev rounded-full p-3 bg-white bg-opacity-70 absolute z-10 top-1/2 transform -translate-y-1/2 -left-4"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M17,3h2c0.386,0,0.738,0.223,0.904,0.572s0.115,0.762-0.13,1.062L11.292,15l8.482,10.367 c0.245,0.299,0.295,0.712,0.13,1.062S19.386,27,19,27h-2c-0.3,0-0.584-0.135-0.774-0.367l-9-11c-0.301-0.369-0.301-0.898,0-1.267 l9-11C16.416,3.135,16.7,3,17,3z"/></svg></button>',
             nextArrow: '<button type="button" class="slick-prev bg-white bg-opacity-70 rounded-full p-3 absolute z-10 top-1/2 transform -translate-y-1/2 -right-4"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.109,3L11.109,3C9.78,3,8.988,4.481,9.725,5.587L14,12l-4.275,6.413C8.988,19.519,9.78,21,11.109,21h0 c0.556,0,1.076-0.278,1.385-0.741l4.766-7.15c0.448-0.672,0.448-1.547,0-2.219l-4.766-7.15C12.185,3.278,11.666,3,11.109,3z"/></svg></button>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
         });
         $('#slick-hot-selling-car-model').slick({
             infinite: true,
@@ -1082,6 +1391,83 @@
                     breakpoint: 480,
                     settings: {
                         slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+        $('#slick-customer').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            lazyLoad: 'ondemand',
+            arrows: false,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+
+        $('#slick-useful-news-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '#slick-useful-news-nav'
+        });
+        $('#slick-useful-news-nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            asNavFor: '#slick-useful-news-for',
+            dots: false,
+            lazyLoad: 'ondemand',
+            focusOnSelect: true,
+            prevArrow: '<button type="button" class="slick-prev-news rounded-full p-1 bg-white bg-opacity-80 border border-solid border-gray-200 absolute z-10 top-9 transform -translate-y-1/2 lg:-left-0 left-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M17,3h2c0.386,0,0.738,0.223,0.904,0.572s0.115,0.762-0.13,1.062L11.292,15l8.482,10.367 c0.245,0.299,0.295,0.712,0.13,1.062S19.386,27,19,27h-2c-0.3,0-0.584-0.135-0.774-0.367l-9-11c-0.301-0.369-0.301-0.898,0-1.267 l9-11C16.416,3.135,16.7,3,17,3z"/></svg></button>',
+            nextArrow: '<button type="button" class="slick-next-news bg-white bg-opacity-80 border border-solid border-gray-200 rounded-full p-1 absolute z-10 top-9 transform -translate-y-1/2 lg:-right-0 right-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.109,3L11.109,3C9.78,3,8.988,4.481,9.725,5.587L14,12l-4.275,6.413C8.988,19.519,9.78,21,11.109,21h0 c0.556,0,1.076-0.278,1.385-0.741l4.766-7.15c0.448-0.672,0.448-1.547,0-2.219l-4.766-7.15C12.185,3.278,11.666,3,11.109,3z"/></svg></button>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+        $('#slick-useful-video-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '#slick-useful-video-nav'
+        });
+        $('#slick-useful-video-nav').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            asNavFor: '#slick-useful-video-for',
+            dots: false,
+            lazyLoad: 'ondemand',
+            focusOnSelect: true,
+            prevArrow: '<button type="button" class="slick-prev-video rounded-full p-1 bg-white bg-opacity-80 border border-solid border-gray-200 absolute z-10 top-9 transform -translate-y-1/2 lg:-left-0 left-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M17,3h2c0.386,0,0.738,0.223,0.904,0.572s0.115,0.762-0.13,1.062L11.292,15l8.482,10.367 c0.245,0.299,0.295,0.712,0.13,1.062S19.386,27,19,27h-2c-0.3,0-0.584-0.135-0.774-0.367l-9-11c-0.301-0.369-0.301-0.898,0-1.267 l9-11C16.416,3.135,16.7,3,17,3z"/></svg></button>',
+            nextArrow: '<button type="button" class="slick-next-video bg-white bg-opacity-80 border border-solid border-gray-200 rounded-full p-1 absolute z-10 top-9 transform -translate-y-1/2 lg:-right-0 right-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.109,3L11.109,3C9.78,3,8.988,4.481,9.725,5.587L14,12l-4.275,6.413C8.988,19.519,9.78,21,11.109,21h0 c0.556,0,1.076-0.278,1.385-0.741l4.766-7.15c0.448-0.672,0.448-1.547,0-2.219l-4.766-7.15C12.185,3.278,11.666,3,11.109,3z"/></svg></button>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                     }
                 }

@@ -21,4 +21,5 @@ mix.scripts([
   'dist/libs/jquery/jquery-3.6.4.min.js',
   'dist/libs/slick/slick.min.js',
   'dist/libs/uikit/uikit.min.js',
+  'dist/js/app.js',
 ], 'dist/mix/app.min.js');
