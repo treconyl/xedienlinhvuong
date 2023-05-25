@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+        html, body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="../dist/mix/app.min.css">
+</head>
+<body>
+    <header class="bg-cornflowerblue-500 fixed top-0 left-0 w-full z-50">
+        <div class="bg-[#FBDE00]">
+            <div class="max-w-7xl mx-auto px-4">
+                <a href="#" class="md:h-11 h-6 block">
+                    <img class="w-full h-full object-cover" src="../dist/images/headbanner.png" alt="head banner">
+                </a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 pt-4">
+            <div class="flex items-center justify-between">
+                <h1>
+                    <span class="hidden">Xe Dien Linh Vuong</span>
+                    <a href="">
+                        <img class="md:w-48 w-28 object-cover" src="../dist/images/logo.png" alt="logo Xe Dien Linh Vuong">
+                    </a>
+                </h1>
+                <div class="flex items-center space-x-10">
+                    <form action="" method="GET">
+                        <fieldset>
+                            <label for="search"></label>
+                            <input type="text" id="search" name="keywords" class="xl:w-96 w-full rounded-md xl:px-6 px-4 xl:py-[11px] py-2 xl:placeholder:text-sm text-xs" placeholder="Nhập xe cần tìm ..." required>
+                            <svg class="absolute z-10 xl:x-5 xl:h-5 w-4 h-4 top-1/2 xl:right-3 right-1 transform -translate-y-1/2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z" stroke="#686868" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        </fieldset>
+                        <button type="submit" class="absolute top-1/2 right-4 transform -translate-y-1/2"></button>
+                    </form>
+                    <div class="border border-solid border-gray-200 rounded-md text-white text-center px-4 max-w-max xl:block hidden">
+                        <a href="tel:0967594586" class="font-medium text-lg h-6 block"> 0967.59.45.86 </a>
+                        <div class="text-sm"> Tổng đài miễn phí </div>
+                    </div>
+                    <div class="divide-x divide-solid text-white items-center xl:flex hidden">
+                        <a href="" class="flex items-center h-10 pr-10 text-center leading-4"> Tư vấn <br> chọn mua </a>
+                        <a href="" class="flex items-center h-10 pl-10"> Khuyến mãi </a>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-head" class="pt-4">
+                <ul class="flex items-center overflow-y-auto">
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe máy điện</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe đạp điện</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe điện 50CC</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Xe điện cũ</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Ắc quy</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Phụ kiện</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Tin tức</a>
+                    </li>
+                    <li>
+                        <a href="" class="block text-white hover:text-cornflowerblue-400 px-4 py-2 md:text-sm text-xs min-w-max">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="space-y-12 lg:mt-[171px] mt-[123px]">
+        <section class="max-w-6xl mx-auto px-4">
+            <nav class="py-4">
+                <ol class="flex flex-wrap text-sm">
+                    <li>
+                        <a href="https://hoachattayrua.com.vn" class="text-gray-500">
+                            Trang chủ
+                        </a>
+                    </li>              
+                    <li class="text-gray-400 px-2">
+                        /
+                    </li>
+                    <li>
+                        <a href="https://hoachattayrua.com.vn" class="text-gray-500">
+                            Hóa chất tẩy rửa công nghiệp
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+
+            <div class="md:flex items-center md:space-x-5">
+                <h1 class="font-medium text-xl md:mb-0 mb-2">XE MÁY ĐIỆN YADEA S3 PRO</h1>
+                <div class="divide-x-2 divide-solid flex items-center">
+                    <div class="flex items-center space-x-1 pr-2">
+                        <svg class="w-3 h-3" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#FF8317" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265 C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642 c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854 c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72 c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z"></path> </g></svg>
+                        <svg class="w-3 h-3" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#FF8317" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265 C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642 c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854 c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72 c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z"></path> </g></svg>
+                        <svg class="w-3 h-3" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#FF8317" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265 C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642 c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854 c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72 c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z"></path> </g></svg>
+                        <svg class="w-3 h-3" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#FF8317" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265 C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642 c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854 c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72 c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z"></path> </g></svg>
+                        <svg class="w-3 h-3" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#FF8317" d="M62.799,23.737c-0.47-1.399-1.681-2.419-3.139-2.642l-16.969-2.593L35.069,2.265 C34.419,0.881,33.03,0,31.504,0c-1.527,0-2.915,0.881-3.565,2.265l-7.623,16.238L3.347,21.096c-1.458,0.223-2.669,1.242-3.138,2.642 c-0.469,1.4-0.115,2.942,0.916,4l12.392,12.707l-2.935,17.977c-0.242,1.488,0.389,2.984,1.62,3.854 c1.23,0.87,2.854,0.958,4.177,0.228l15.126-8.365l15.126,8.365c0.597,0.33,1.254,0.492,1.908,0.492c0.796,0,1.592-0.242,2.269-0.72 c1.231-0.869,1.861-2.365,1.619-3.854l-2.935-17.977l12.393-12.707C62.914,26.68,63.268,25.138,62.799,23.737z"></path> </g></svg>
+                    </div>
+                    <div class="pl-2 text-sm text-cornflowerblue-500">4 Đánh giá</div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-12 gap-6 mt-6">
+                <div class="xl:col-span-7 md:col-span-6 col-span-12">
+                    <div id="slick-product-for">
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" target="_blank" class="aspect-w-10 aspect-h-6 block">
+                                <img class="w-full h-full object-contain" data-lazy="https://bizweb.dktcdn.net/100/298/750/products/xe-may-dien-vespa-latina-lx.jpg?v=1597050190923" alt="article">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="slick-product-nav" class="-mx-2 mt-4">
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                        <div class="mx-2 cursor-pointer">
+                            <div class="aspect-1">
+                                <img class="w-full h-full object-cover" data-lazy="https://sieuthixedap.com/storage/products/canely-s/xe-may-dien-canely-s-111.jpg" alt="article">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 mt-6">
+                        <div class="font-medium">ĐẶC ĐIỂM NỔI BẬT</div>
+                        <div class="space-y-4">
+                            <p>Chiếc xe điện 3 bánh VTX3 đặc biệt được thiết kế cho người cao tuổi và người khuyết tật. Được trang bị với nhiều tính năng tiện lợi, VTX3 giúp cho quá trình di chuyển trở nên dễ dàng và độc lập hơn. Giảm bớt sự phụ thuộc vào người thân và mang đến sự tự tin cho người sử dụng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="xl:col-span-5 md:col-span-6 col-span-12 space-y-6">
+                    <div class="bg-gray-100 border border-solid border-gray-200 rounded-t-md p-4 flex items-center space-x-3">
+                        <div class="lg:text-lg text-base text-gray-600 line-through">24.000.000 <sup>đ</sup></div>
+                        <div class="lg:text-2xl text-lg text-red-600 font-semibold">24.000.000 <sup>đ</sup></div>
+                        <div class="px-3 py-1 rounded-md bg-red-600 text-sm text-white font-medium">-11%</div>
+                    </div>
+
+                    <div>
+                        <div class="bg-gray-100 border border-solid border-gray-200 rounded-t-md p-4 flex items-center space-x-3 lg:text-base text-xs">
+                            <div class="text-red-600 font-semibold">+ 96,700</div>
+                            <div class="">Đểm tích lũy quà tặng VIP</div>
+                            <div class="text-cornflowerblue-400">Xem chi tiết</div>
+                        </div>
+                        <ul class="bg-white p-4 border border-solid border-gray-200 text-sm space-y-2 border-t-0">
+                            <li>Tặng suất mua kèm Đồng hồ thời trang giảm 40% (không kèm khuyến mãi khác của đồng hồ)</li>
+                            <li>Mã giảm 100.000đ áp dụng đơn hàng từ 500.000đ</li>
+                            <li>Tặng suất mua kèm Đồng hồ thời trang giảm 40% (không kèm khuyến mãi khác của đồng hồ)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="bg-gray-100 border border-solid border-gray-200 rounded-t-md px-4 py-2 lg:text-base text-sm">
+                            <div class="font-medium">Khuyến mãi trị giá 600.000</div>
+                            <div class="lg:text-sm text-xs text-gray-500">Giá và khuyến mãi dự kiến áp dụng đến 23:59 | 07/05</div>
+                        </div>
+                        <ul class="bg-white p-4 border border-solid border-gray-200 text-sm space-y-2 border-t-0">
+                            <li class="flex items-start space-x-1">
+                                <svg class="w-3 h-3 min-w-[12px] mt-[3px]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#00BA00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00BA00" d="M512 64a448 448 0 110 896 448 448 0 010-896zm-55.808 536.384l-99.52-99.584a38.4 38.4 0 10-54.336 54.336l126.72 126.72a38.272 38.272 0 0054.336 0l262.4-262.464a38.4 38.4 0 10-54.272-54.336L456.192 600.384z"></path></g></svg>
+                                <div> Mua online thêm quà: Tặng Giá Đỡ Điện <a href="#" class="text-cornflowerblue-400"> Xem chi tiết </a> </div>
+                            </li>
+                            <li class="flex items-start space-x-1">
+                                <svg class="w-3 h-3 min-w-[12px] mt-[3px]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#00BA00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00BA00" d="M512 64a448 448 0 110 896 448 448 0 010-896zm-55.808 536.384l-99.52-99.584a38.4 38.4 0 10-54.336 54.336l126.72 126.72a38.272 38.272 0 0054.336 0l262.4-262.464a38.4 38.4 0 10-54.272-54.336L456.192 600.384z"></path></g></svg>
+                                <div> Tặng Túi sườn xe đạp (Hết quà hoàn tiền 200.000₫) <a href="#" class="text-cornflowerblue-400"> Xem chi tiết </a> </div>
+                            </li>
+                            <li class="flex items-start space-x-1">
+                                <svg class="w-3 h-3 min-w-[12px] mt-[3px]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#00BA00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00BA00" d="M512 64a448 448 0 110 896 448 448 0 010-896zm-55.808 536.384l-99.52-99.584a38.4 38.4 0 10-54.336 54.336l126.72 126.72a38.272 38.272 0 0054.336 0l262.4-262.464a38.4 38.4 0 10-54.272-54.336L456.192 600.384z"></path></g></svg>
+                                <div class="inline-block"> Nhập mã MM30THANG4 giảm ngay 2% tối đa 100.000đ khi thanh toán qua MOMO <a href="#" class="text-cornflowerblue-400 inline-block"> Xem chi tiết </a> </div>
+                            </li>
+                            <li class="flex items-start space-x-1">
+                                <svg class="w-3 h-3 min-w-[12px] mt-[3px]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#00BA00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00BA00" d="M512 64a448 448 0 110 896 448 448 0 010-896zm-55.808 536.384l-99.52-99.584a38.4 38.4 0 10-54.336 54.336l126.72 126.72a38.272 38.272 0 0054.336 0l262.4-262.464a38.4 38.4 0 10-54.272-54.336L456.192 600.384z"></path></g></svg>
+                                <div> Tặng Túi sườn xe đạp (Hết quà hoàn tiền 200.000₫) <a href="#" class="text-cornflowerblue-400"> Xem chi tiết </a> </div>
+                            </li>
+                            <li class="flex items-start space-x-1">
+                                <svg class="w-3 h-3 min-w-[12px] mt-[3px]" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#00BA00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#00BA00" d="M512 64a448 448 0 110 896 448 448 0 010-896zm-55.808 536.384l-99.52-99.584a38.4 38.4 0 10-54.336 54.336l126.72 126.72a38.272 38.272 0 0054.336 0l262.4-262.464a38.4 38.4 0 10-54.272-54.336L456.192 600.384z"></path></g></svg>
+                                <div> Tặng Túi sườn xe đạp (Hết quà hoàn tiền 200.000₫) <a href="#" class="text-cornflowerblue-400"> Xem chi tiết </a> </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="space-y-4">
+                        <button type="button" class="bg-[#F8810C] block w-full py-2 rounded-md text-white text-sm hover:bg-[#e4780d]">THÊM VÀO GIỎ HÀNG</button>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-full bg-cornflowerblue-400 rounded-md text-center text-white text-sm py-2">
+                                <div>MUA TRẢ GÓP 0%</div>
+                                <div class="text-xs text-gray-200">Duyệt hồ sơ trong 5 phút</div>
+                            </div>
+                            <div class="w-full bg-cornflowerblue-400 rounded-md text-center text-white text-sm py-2">
+                                <div>GỌI ĐẶT MUA</div>
+                                <div class="text-xs text-gray-200">1800.1061 - 0967.59.45.86</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--KHÁCH HÀNG-->
+        <section class="max-w-6xl mx-auto px-4 space-y-6">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="uppercase font-semibold lg:text-3xl text-2xl text-cornflowerblue-500"> KHÁCH HÀNG </h2>
+                <a href="#" class="text-cornflowerblue-500">Xem thêm >></a>
+            </div>
+            <div id="slick-customer" class="-mx-3">
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-solid border-gray-300 rounded-md overflow-hidden bg-white mx-2">
+                    <a href="#" class="block group p-1" title="Xe máy điện Vinfast evo 2020">
+                        <div class="aspect-w-10 aspect-h-7 overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition rounded-sm" src="https://uschamber-co.imgix.net/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fco-assets%2Fassets%2Fimages%2Fwhat-is-customer-stickiness.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.7636&fp-y=0.2652&h=415&q=88&w=622&s=e8915de5341826a3a3303e9f49c5b685" alt="customer">
+                        </div>
+                        <div class="font-semibold text-sm uppercase px-2 line-clamp-3 py-1 h-12"> MR ĐÀM VĨNH HƯNG VÀ CA SĨ VŨ HÀ ĐÃ LỰA CHỌN XE DIBAO </div>
+                    </a>
+                    <div class="lg:flex items-center justify-between lg:space-x-2 px-4 lg:mb-0 mb-2 pb-2">
+                        <div class="text-gray-500 text-xs"> By MINH KHOA </div>
+                        <div class="text-gray-500 text-xs space-x-1 flex items-center">
+                            <img class="w-3 h-3" src="../dist/images/clock.svg" alt="clock svg">
+                            <div>15/05/2023 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-cornflowerblue-500 grid grid-cols-5 text-white uppercase lg:py-2 lg:divide-x lg:divide-y-0 divide-y">
+            <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
+                LỜI KHUYÊN CHUYÊN GIA
+            </div>
+            <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
+                THU XE CŨ ĐỔI XE MỚI
+            </div>
+            <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
+                TƯ VẤN MIỄN PHÍ 24/7
+            </div>
+            <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
+                ĐỔI XE TRONG VÒNG 72H
+            </div>
+            <div class="lg:col-span-1 col-span-12 text-center lg:py-1 py-2">
+                CHÍNH SÁCH BẢO HÀNH
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-10 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-12 lg:gap-x-10 lg:gap-y-0 gap-y-6 lg:text-lg text-base text-gray-700">
+            <div class="lg:col-span-4 col-span-12">
+                <div class="space-y-2 mb-4">
+                    <div class="uppercase font-semibold"> Cam kết dịch vụ của chúng tôi </div>
+                    <div class="w-24 h-0.5 bg-cornflowerblue-500"></div>
+                </div>
+                    
+                <nav class="space-y-1">
+                    <a href="#" class="block text-gray-700"> Chính sách đổi trả hàng </a>
+                    <a href="#" class="block text-gray-700"> Phục vụ tận nơi, theo yêu cầu, giá không đổi </a>
+                    <a href="#" class="block text-gray-700"> Dịch vụ sửa chữa tận nhà, sửa chữa lưu động </a>
+                    <a href="#" class="block text-gray-700"> Sự hài lòng của khách hàng là mục tiêu phấn đấu của Linh Vương </a>
+                    <a href="#" class="block text-gray-700"> Phục vụ tận tình, đáp ứng nhanh </a>
+                </nav>
+            </div>
+            <div class="lg:col-span-4 col-span-12">
+                <div class="space-y-2 mb-4">
+                    <div class="uppercase font-semibold"> Điểm mua hàng </div>
+                    <div class="w-24 h-0.5 bg-cornflowerblue-500"></div>
+                </div>
+                <ul class="space-y-2">
+                    <li>
+                        Địa Chỉ: LK 608. khu đất dịch vụ hòa bình Yên nghĩa hà đông Hà Nội
+                    </li>
+                    <li>
+                        Địa Chỉ kho hàng: Số 24 Ngõ 379 Lương Thế Vinh, Thanh Xuân, Hà Nội.
+                    </li>
+                </ul>
+            </div>
+            <div class="lg:col-span-4 col-span-12">
+                <div class="space-y-2 mb-4">
+                    <div class="uppercase font-semibold"> Thông tin xe điện minh vương </div>
+                    <div class="w-24 h-0.5 bg-cornflowerblue-500"></div>
+                </div>
+                <div class="space-y-3">
+                    <div class="font-semibold lg:text-xl"> Công ty Cổ Phần Đầu Tư và Thương Mại Linh Vương. </div>
+                    <div>Địa Chỉ: 221 Nguyễn trãi, Thanh Xuân, Hà Nội</div>
+                    <a href="mailto:xedienlinhvuong@gmail.com" class="block">Email: xedienlinhvuong@gmail.com</a>
+                    <div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-8 text-gray-700">
+            Bản quyền thuộc 2023 Xe điện Linh Vương™.
+        </div>
+    </footer>
+
+    <div class="fixed bottom-4 right-4 space-y-4">
+        <a href="#" class="block w-10 h-10 rounded-full bg-[#FF0000] border-[3px] border-red-300">
+            <svg class="w-full h-full p-[10px]" fill="#fff" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <path d="M24,13H22a3.0033,3.0033,0,0,0-3-3V8A5.0057,5.0057,0,0,1,24,13Z" transform="translate(0)"></path> <path d="M28,13H26a7.0078,7.0078,0,0,0-7-7V4A9.01,9.01,0,0,1,28,13Z" transform="translate(0)"></path> <path d="M20.3333,21.4823l2.24-2.24a2.1667,2.1667,0,0,1,2.3368-.48l2.7281,1.0913A2.1666,2.1666,0,0,1,29,21.8659v4.9613a2.1668,2.1668,0,0,1-2.2843,2.1686C7.5938,27.8054,3.7321,11.6114,3.0146,5.4079A2.162,2.162,0,0,1,5.1692,3H10.042a2.1666,2.1666,0,0,1,2.0117,1.362L13.145,7.09a2.1666,2.1666,0,0,1-.48,2.3367l-2.24,2.24S11.6667,20.399,20.3333,21.4823Z" transform="translate(0)"></path> <rect class="cls-1" width="32" height="32"></rect> </g></svg>
+        </a>
+        <a href="#" class="block w-10 h-10 rounded-full bg-[#2196F3] border-[3px] border-blue-300">
+            <svg class="w-full h-full p-[10px]" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12,2A9.65,9.65,0,0,0,2,11.7a9.51,9.51,0,0,0,3.14,7.18.81.81,0,0,1,.27.56l0,1.78a.81.81,0,0,0,1.13.71l2-.87a.75.75,0,0,1,.53,0,11,11,0,0,0,2.9.38A9.7,9.7,0,1,0,12,2Zm6,7.46-2.93,4.66a1.5,1.5,0,0,1-2.17.4l-2.34-1.75a.6.6,0,0,0-.72,0l-3.16,2.4A.47.47,0,0,1,6,14.54L8.93,9.88a1.5,1.5,0,0,1,2.17-.4l2.34,1.75a.6.6,0,0,0,.72,0l3.16-2.4A.47.47,0,0,1,18,9.46Z"></path></g></svg>
+        </a>
+        <a href="#" class="block w-10 h-10 rounded-full bg-[#2196F3] border-[3px] border-blue-300">
+            <svg class="w-full h-full p-[10px]" fill="#fff" viewBox="0 0 32 32" id="icon" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <path d="M24,13H22a3.0033,3.0033,0,0,0-3-3V8A5.0057,5.0057,0,0,1,24,13Z" transform="translate(0)"></path> <path d="M28,13H26a7.0078,7.0078,0,0,0-7-7V4A9.01,9.01,0,0,1,28,13Z" transform="translate(0)"></path> <path d="M20.3333,21.4823l2.24-2.24a2.1667,2.1667,0,0,1,2.3368-.48l2.7281,1.0913A2.1666,2.1666,0,0,1,29,21.8659v4.9613a2.1668,2.1668,0,0,1-2.2843,2.1686C7.5938,27.8054,3.7321,11.6114,3.0146,5.4079A2.162,2.162,0,0,1,5.1692,3H10.042a2.1666,2.1666,0,0,1,2.0117,1.362L13.145,7.09a2.1666,2.1666,0,0,1-.48,2.3367l-2.24,2.24S11.6667,20.399,20.3333,21.4823Z" transform="translate(0)"></path> <rect class="cls-1" width="32" height="32"></rect> </g></svg>
+        </a>
+        <a href="#" class="block w-10 h-10 rounded-full bg-[#40B892] border-[3px] border-green-400">
+            <svg class="w-full h-full p-[10px]" fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.917 45.917" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M33.523,28.334c-0.717,1.155-1.498,2.358-2.344,3.608c7.121,1.065,10.766,3.347,10.766,4.481 c0,1.511-6.459,5.054-18.986,5.054c-12.528,0-18.988-3.543-18.988-5.054c0-1.135,3.645-3.416,10.768-4.481 c-0.847-1.25-1.628-2.453-2.345-3.608C5.365,29.661,0,32.385,0,36.424c0,5.925,11.551,9.024,22.959,9.024s22.958-3.1,22.958-9.024 C45.917,32.385,40.553,29.661,33.523,28.334z"></path> <path d="M22.96,36.047c1.032,0,2.003-0.491,2.613-1.325c3.905-5.33,10.813-15.508,10.813-20.827 c0-7.416-6.012-13.427-13.427-13.427c-7.417,0-13.427,6.011-13.427,13.427c0,5.318,6.906,15.497,10.812,20.827 C20.957,35.556,21.928,36.047,22.96,36.047z M17.374,13.63c0-3.084,2.5-5.584,5.585-5.584c3.084,0,5.584,2.5,5.584,5.584 s-2.5,5.584-5.584,5.584C19.874,19.215,17.374,16.715,17.374,13.63z"></path> </g> </g> </g></svg>
+        </a>
+        
+    </div>
+
+    <script src="../dist/mix/app.min.js"></script>
+    <script>
+        $('#slick-product-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '#slick-product-nav'
+        });
+        $('#slick-product-nav').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            asNavFor: '#slick-product-for',
+            dots: false,
+            lazyLoad: 'ondemand',
+            focusOnSelect: true,
+            arrows: false,
+            // prevArrow: '<button type="button" class="slick-prev-news rounded-full p-1 bg-white bg-opacity-80 border border-solid border-gray-200 absolute z-10 top-1/2 transform -translate-y-1/2 lg:-left-0 left-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M17,3h2c0.386,0,0.738,0.223,0.904,0.572s0.115,0.762-0.13,1.062L11.292,15l8.482,10.367 c0.245,0.299,0.295,0.712,0.13,1.062S19.386,27,19,27h-2c-0.3,0-0.584-0.135-0.774-0.367l-9-11c-0.301-0.369-0.301-0.898,0-1.267 l9-11C16.416,3.135,16.7,3,17,3z"/></svg></button>',
+            // nextArrow: '<button type="button" class="slick-next-news bg-white bg-opacity-80 border border-solid border-gray-200 rounded-full p-1 absolute z-10 top-1/2 transform -translate-y-1/2 lg:-right-0 right-0"><svg class="w-4 h-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.109,3L11.109,3C9.78,3,8.988,4.481,9.725,5.587L14,12l-4.275,6.413C8.988,19.519,9.78,21,11.109,21h0 c0.556,0,1.076-0.278,1.385-0.741l4.766-7.15c0.448-0.672,0.448-1.547,0-2.219l-4.766-7.15C12.185,3.278,11.666,3,11.109,3z"/></svg></button>',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+        $('#slick-customer').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            lazyLoad: 'ondemand',
+            arrows: false,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
