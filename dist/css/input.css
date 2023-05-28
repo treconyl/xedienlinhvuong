@@ -19,6 +19,16 @@
     background-color: #00A8EA;
 }
 
+.button-arrow span::before {
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #3560ab;
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
