@@ -28,7 +28,12 @@
     top: 5px;
     right: -15px;
 }
-
+.menu-right {
+    width: calc(100% - 192px) !important;
+}
+#open-menu:hover .dropdown-menu{
+    display: block;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
